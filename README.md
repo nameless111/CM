@@ -1,3 +1,3 @@
 # crowdtestingManagement
 
-This is the supplemental material for the paper "Effective Automated Decision Support for Managing Crowdtesting".
+This is the source code for the paper 'A One-to-Many Deep Recognizer for Requirement Analysis'
