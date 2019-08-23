@@ -2,7 +2,7 @@
 	
 Category Structure
 ------
-* Supplementary Material
+* Supplementary Materials
   * Heat map of expertise for Section 2.3
   * Details of experimental dataset for Section 4.2
   * Performance for recPoint with larger FirstHit of Ground Truth for Section 5.1
