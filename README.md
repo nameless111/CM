@@ -1,27 +1,22 @@
-    This is the source code for the paper 'A One-to-Many Deep Recognizer for Requirement Analysis'
+    This is the source code and supplementary meterial for paper 'Context-aware In-process Crowdworker Recommendation'
+	
 Category Structure
 ------
-* baseline
-  * baseline1
-    * baseline1.py<br>
-    The 1st baseline experiment file.
-  * baseline2
-    * baseline2.py<br>
-    The 2nd baseline experiment file.
-* data_prepare
-    * prepareData.py<br>
-    Data preparation file.
-* model
-    * attn_decoder.py<br>
-    Attention based decoder file.
-    * encoder.py<br>
-    Encoder
-    * trainModel_1tm.py<br>
-    The training process file.
-    * evalModel.py<br>
-    The evaluating process file.
-    * one_to_many_utils.py<br>
-    One to many align to one-encoder-multiple-decoder architecture file.
-* utils
-    * voc.py<br>
-    The vocabulary file.
+* Supplementary Material
+  * Heat map of expertise for Section 2.3
+  * Details of experimental dataset for Section 4.2
+  * Performance for recPoint with larger FirstHit of Ground Truth for Section 5.1
+  * Performance under recThres from 5 to 15 for Section 5.1
+  
+* src: source code
+  * com/recommendOverview: the whole approach iRec
+  * com/recommendRank: the learning-based ranking component
+  * com/recommendRerank: the diversity-based re-ranking component
+  * com/evaluation: evaluation metrics
+  * com/dataProcess: utilities for data preprocessing
+  * com/data: basic data structure
+  * com/findings: code for obtaining the findings in Section 2.2 and 2.3
+  
+* models: basic model for natural language processing
+
+* data: data for the experimental
