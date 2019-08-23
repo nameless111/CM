@@ -1,4 +1,4 @@
-    This is the source code and supplementary meterial for paper 'Context-aware In-process Crowdworker Recommendation'
+    This is the source code and supplementary meterials for paper 'Context-aware In-process Crowdworker Recommendation'
 	
 Category Structure
 ------
