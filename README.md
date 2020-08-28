@@ -1,16 +1,14 @@
-    This is the source code and supplementary meterials for paper 'Let History Tell: Machine Learned Personalized Crowdtesting Task Recommendation'
+    This is the source code and supplementary meterials for paper 'Crowd-wisdom Transferable Bug Finding'
 	
 Category Structure
 ------
-* src: source code
-  * com/taskRecommendation: the whole approach PTRec
-  * com/recommendBasic,com/recommendLearning: history retrieval and characterization of crowd workers
-  * com/exploration: correlation between workers' characteristics and their bug detection performance
-  * com/evaluation: evaluation metrics
-  * com/dataProcess: utilities for data preprocessing
-  * com/data: basic data structure
-  * com/wekaPrediction: weka algorithm for prediction
-  
-* models: basic model for natural language processing
-
-* data: data for the experiment
+* train: training workflow of the model
+* evaluate: evaluation workflow of the model
+* mtl/model_base: the basic model structure
+* mtl/model_mtl: MDnet model design
+* mtl/sampler_multi_task_trainer: the basic model optimization
+* mtl/multi_task_trainer: the model optimization
+* mtl/data_prepare and mtl/dataset_reader: data preparation and io
+* mtl/config: the parameters setting
+* mtl/attention: retrieve the weight of terms in attention layer
+* data: the details of experimental results and user studies
